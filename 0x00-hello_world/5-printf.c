@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 /**
 *Description: main-printf prints to stdout
 *Return: 0 if success.
