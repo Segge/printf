@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
- * Description: main-prints the alphabet.
+ * Description: main-prints alphabet in lowercase.
  * Return: 0 if success
  */
 
@@ -14,7 +14,7 @@ int main(void)
 
 	char lowercase;
 
-	for (lowercase = 'a';lowercase <= 'z';lowercase++)
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	putchar(lowercase);
 	putchar('\n');
 	return (0);
