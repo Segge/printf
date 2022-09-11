@@ -11,15 +11,15 @@
 
 int main(void)
 {
-	char loweercase = 'a';
+char lowercase = 'a';
 
 while (lowercase < 'z')
 {
 putchar(lowercase);
 lowercase++;
 }
-
 lowercase = 'A';
+
 while (lowercase < 'Z')
 {
 putchar(lowercase);
@@ -28,3 +28,4 @@ lowercase++;
 putchar('\n');
 return (0);
 }
+
