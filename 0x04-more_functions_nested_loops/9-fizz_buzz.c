@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  *main-program that prints numbers
@@ -7,28 +8,31 @@
  */
 int main(void)
 {
-	int num = 1;
+	int a;
 
-	while (num++ < 100)
+	for (a = 1; a <= 100; a++)
 	{
-		if ((num % 3 == 0) && (num % 5 == 0))
+		if (a % 15 == 0)
 		{
-			printf("FizzBuzz ");
+		printf("FizzBuzz ");
 		}
-		else if ((num % 3) == 0)
+		else if (a % 3 == 0)
 		{
 		printf("Fizz ");
 		}
-		else if ((num % 5) == 0)
+		else if (a % 5 == 0)
 		{
-			if (num != 100)
+		printf("Buzz ");
+		}
+		else
+		{
+		printf("%i", a);
+			if (a < 100)
 			{
-				printf("Buzz ");
-			}
-			else
-			{
-				printf("Buzz ");
+			printf(" ");
 			}
 		}
 	}
+	printf("\n");
+	return (0);
 }
