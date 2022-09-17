@@ -21,7 +21,7 @@ int main(void)
 		c = a + b;
 		if (count < 50)
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	printf("\n");
