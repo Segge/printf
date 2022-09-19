@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *puts_half- function that print second half of the string
- *
- *@str: input string
- *Return:returns half of the string
- */
+*puts_half - function that print second half of the string
+*
+*@str: input string
+*Return:returns half of the string
+*/
 void puts_half(char *str)
 {
 	int lent = 0;
@@ -21,5 +21,5 @@ void puts_half(char *str)
 		_putchar(*str);
 		str++;
 	}
-	 _putchar('\n');
+	_putchar('\n');
 }
