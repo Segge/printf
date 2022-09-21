@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- *_strncat-function to append 
+ *_strncat-function to append
  *@dest:parameter 1
  *@src:parameter 2
  *@n:parameter 3
