@@ -11,7 +11,7 @@ char *rot13(char *p)
 {
 	int i, j;
 
-	char parameter1[] = "ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char parameter1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char parameter_rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; p[i] != '\0'; i++)
