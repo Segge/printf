@@ -9,9 +9,8 @@
 void print_number(int n)
 {
 	unsigned int number;
-	number = n;
 
-	
+	number = n;
 	if (n < 0)
 	{
 		_putchar('-');
